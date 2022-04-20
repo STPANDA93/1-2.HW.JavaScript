@@ -37,8 +37,8 @@ function TEST1(age) {
     }    
 };
 
-let mas2 = [17, "teststring", 18, 61];
-mas1.forEach(i => { 
+let mas2 = [17, 18, 61];
+mas2.forEach(i => { 
     TEST1(i); 
 });
 
@@ -65,8 +65,8 @@ function TEST1(item) {
 };
 
 
-let mas3 = [17, 18, 61, "2", "teststring"];
-mas1.forEach(i => { 
+let mas3 = [17, 18, 61, "2"];
+mas3.forEach(i => { 
     console.log("----------------------------");
     TEST1(i) 
 });
